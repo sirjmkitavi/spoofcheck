@@ -224,7 +224,7 @@ if __name__ == "__main__":
             spoofable = False
 
         if spoofable:
-            output_good("Spoofing possible for " + domain + "!")
+            output_good("Spoofing possible for " + domain + "!\n Spoof with http://anonymousemail.me")
         else:
             output_bad("Spoofing not possible for " + domain)
 
